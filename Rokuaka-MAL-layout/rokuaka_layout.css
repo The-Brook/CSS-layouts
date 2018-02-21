@@ -3,6 +3,6 @@ body {
     background-image: url("https://github.com/The-Brook/CSS-layouts/blob/master/Rokuaka-MAL-layout/images/background.jpg");
 }
 
-a {
+body a {
     color: chartreuse;
 }
