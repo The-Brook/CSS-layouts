@@ -10,13 +10,16 @@ body a {
 }
 
 a.link.sort {
+    font-size: 18px;
     color: #2A2856;
 }
 
 a.link.sort:hover {
+    font-size: 18px;
     color: #323265;
 }
 
 a.link.sort:active {
+    font-size: 18px;
     color: #5B5BB7;
 }
