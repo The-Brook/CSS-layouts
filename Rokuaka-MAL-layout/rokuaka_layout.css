@@ -12,16 +12,16 @@ body a {
     font-family: 'Francois One', sans-serif;
 }
 
-.data a {
+.data a.link.sort {
     font-size: 20px !important;
     color: #2A2856 !important;
 }
 
-.data a:hover {
+.data a.link.sort:hover {
     color: #323265 !important;
 }
 
-.data a:active {
+.data a.link.sort:active {
     color: #5B5BB7 !important;
 }
 
