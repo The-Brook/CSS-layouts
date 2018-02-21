@@ -26,5 +26,17 @@ body a {
 }
 
 .list-table .list-table-data .data.title .content-status {
+    font-size: 14;
     font-family: 'Nanum Pen Script', cursive;
+}
+
+.list-unit .list-status-title .text {
+    color: #FFFFFF !important;
+    font-family: 'Francois One', sans-serif;
+}
+
+.header-title {
+    color: #FFFFFF !important;
+    font-family: 'Francois One', sans-serif;
+    background-color: #292755;
 }
