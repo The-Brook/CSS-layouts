@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Francois+One|Kaushan+Script&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Nanum+Pen+Script&subset=latin-ext');
 /*
     font-family: 'Kaushan Script', cursive;
     font-family: 'Francois One', sans-serif;
@@ -6,6 +6,7 @@
 body {
     background-size: cover;
     background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/background.jpg");
+    font-size: 20px;
 }
 
 body a {
@@ -13,7 +14,6 @@ body a {
 }
 
 .data a.link.sort {
-    font-size: 20px !important;
     color: #2A2856 !important;
 }
 
