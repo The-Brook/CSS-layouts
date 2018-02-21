@@ -24,3 +24,7 @@ a.link.sort:hover {
 a.link.sort:active {
     color: #5B5BB7;
 }
+
+.content-status {
+    font-family: font-family: 'Kaushan Script', cursive;
+}
