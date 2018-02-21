@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+
 body {
     background-size: cover;
     background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/background.jpg");
@@ -5,4 +7,14 @@ body {
 
 body a {
     color: chartreuse;
+}
+
+.link.sort {
+    font-family: 'Bellefair', serif;
+    color: #2A2856;
+}
+
+.link.sort:hover {
+    font-family: 'Bellefair', serif;
+    color: #323265;
 }
