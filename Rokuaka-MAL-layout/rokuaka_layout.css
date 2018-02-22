@@ -49,6 +49,7 @@ body a {
 }
 
 /* list container */
-#list-container {
-    background-color: rgba(108,110,183,10);
+.list-container#list-container {
+    background-color: rgba(108,110,183,10) !important;
+    border: none;
 }
