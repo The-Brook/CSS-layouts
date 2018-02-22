@@ -61,8 +61,8 @@ body a {
 
 /*  */
 .header-title {
-    background-color: #FFFFFF !important;
+    background-color: rgba(108,110,183,0.75) !important;
     font-family: 'Francois One', sans-serif;
     font-size: 1.4em;
-    color: #2A2856 !important;
+    color: #FFFFFF !important;
 }
