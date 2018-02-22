@@ -91,7 +91,7 @@ t div d .data .status .watching {
     background-color: #2A2856 !important;
 }
 
-.status-menu-container .status-menu .status-button {
+a .status-button {
     color: #FFFFFF;
 }
 
