@@ -116,7 +116,14 @@ td .data .status .watching {
     -o-transition: .4s ease;
 }
 
-
 .add-edit-more {
     color: #2A2856 !important;
+}
+
+#cover-image {
+    display: none;
+}
+
+#cover-image-container {
+    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
 }
