@@ -12,7 +12,7 @@ body {
 }
 
 /* links */
-body a {
+body a, .link {
     font-family: 'Francois One', sans-serif;
     color: #FFFFFF;
 }
