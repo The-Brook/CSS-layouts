@@ -69,8 +69,8 @@ a .header-title .list-table-header{
     color: #2A2856 !important;
 }
 
-td .watching {
-   background-color: #299455 !important;
+td data .watching {
+   background-color: #32E568 !important;
 }
 
 .fa .fa-search {
