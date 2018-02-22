@@ -65,8 +65,12 @@ a .header-title .list-table-header{
     background-color: #FFFFFF !important;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.4em;
-    font-weight: 300;
+    font-weight: 400;
     color: #2A2856 !important;
+}
+
+.watching {
+   background-color: #299455 !important;
 }
 
 .fa .fa-search {
