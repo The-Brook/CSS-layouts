@@ -65,9 +65,18 @@ body a {
     background-color: #FFFFFF !important;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.4em;
+    font-weight: 300;
     color: #2A2856 !important;
 }
 
 .fa .fa-search {
     color: rgb(108,110,183)
+}
+
+.list-table .list-table-header .header-title {
+    background-color: #FFFFFF !important;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+    color: #2A2856 !important;
 }
