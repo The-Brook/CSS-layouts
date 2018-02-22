@@ -103,3 +103,7 @@ td .data .status .watching {
     margin-right: 0px !important;
     border: none;
 }
+
+.btn-menu {
+    margin-right: 100px;
+}
