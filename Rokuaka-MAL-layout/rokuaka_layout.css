@@ -53,7 +53,7 @@ a .header-title .list-table-header{
 .list-container {
     background-color: rgba(108,110,183,0.5) !important;
     border: none;
-    margin-right: 10%;
+    margin-right: 10% !important;
 }
 
 /* PLAN TO WATCH etc. */
@@ -75,7 +75,7 @@ td .data .status .watching {
 }
 
 .fa .fa-search {
-    color: rgb(108,110,183)
+    color: rgb(108,110,183);
 }
 
 .list-table .list-table-header .header-title {
@@ -99,5 +99,5 @@ td .data .status .watching {
 }
 
 .cover-image-container {
-    background-image: url();
+    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
 }
