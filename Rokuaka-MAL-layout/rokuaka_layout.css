@@ -95,7 +95,7 @@ a .status-button {
     color: #FFFFFF;
 }
 
-.status-menu-container .status-menu .status-button {
+.status-menu-container, .status-menu, .status-button {
     color: #FFFFFF;
 }
 
