@@ -76,6 +76,7 @@ t div d .data .status .watching {
 
 .fa .fa-search {
     color: #FFFFFF;
+    z-index: 3;
 }
 
 .list-table .list-table-header .header-title {
