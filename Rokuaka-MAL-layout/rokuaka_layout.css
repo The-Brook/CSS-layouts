@@ -115,3 +115,8 @@ td .data .status .watching {
     -webkit-transition: .4.5s ease;
     -o-transition: .4s ease;
 }
+
+
+.add-edit-more {
+    color: #2A2856 !important;
+}
