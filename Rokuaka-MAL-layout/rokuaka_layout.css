@@ -91,6 +91,14 @@ t div d .data .status .watching {
     color: #FFFFFF !important;
 }
 
+.status_selected {
+    background-color: rgba(0,0,0,0);
+}
+
+.status_not_selected {
+    background-color: rgba(0,0,0,0);
+}
+
 .header-menu {
     color: #2A2856 !important;
     background-color: rgba(108,110,183,0.5) !important;
