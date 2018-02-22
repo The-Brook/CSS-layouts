@@ -126,4 +126,6 @@ td .data .status .watching {
 
 #cover-image-container {
     background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
+    width: 1024px;
+    height: 280;
 }
