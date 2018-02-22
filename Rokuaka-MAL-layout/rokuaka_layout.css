@@ -105,13 +105,13 @@ td .data .status .watching {
 }
 
 .list-table-data:hover td {
-background-color: rgba(72, 64, 87, 0.6) !important;
--moz-transition: .4s ease;
--webkit-transition: .4s ease;
--o-transition: .4s ease;
+    background-color: rgba(190, 192, 255, 0.6) !important;
+    -moz-transition: .4s ease;
+    -webkit-transition: .4s ease;
+    -o-transition: .4s ease;
 
-font-size: 12px !Important;
--moz-transition: .4s ease;
--webkit-transition: .4.5s ease;
--o-transition: .4s ease;
+    font-size: 12px !important;
+    -moz-transition: .4s ease;
+    -webkit-transition: .4.5s ease;
+    -o-transition: .4s ease;
 }
