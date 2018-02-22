@@ -132,7 +132,7 @@ a .status-button {
     -o-transition: .4s ease;
 }
 
-.data a {
+.list-table .list-table-data .data a {
     color: #2A2856;
 }
 
