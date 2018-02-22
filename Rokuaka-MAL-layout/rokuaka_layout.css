@@ -139,3 +139,75 @@ td .data .status .watching {
 .footer-background {
     background-color: #2A2856 !important;
 }
+
+/* THUMBNAIL SETTINGS
+Settings for the thumbnails of covers seen on your list. Height and width control the size, while margin-left and top can be added or taken away to change the position. Change the border size, type, or color, with the first border code.*/
+.hide {
+height:55px;
+width:35px;
+margin-left:33px;
+margin-top:-65px;
+border:1px solid #FFFFFF;
+background-color:rgba(248, 162, 200, 0.7);
+background-position:50% 50%;
+background-repeat:no-repeat no-repeat;
+background-size:cover;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+border-top-left-radius:7px;
+border-top-right-radius:0;
+display:inline-block !important;
+position: absolute;
+}
+
+/*THUMBNAIL HOVER SETTING
+This is the setting for the cover when you point to a thumbnail. Move the cover's position with the margin codes. Change its size with the padding codes. */
+.hide:hover {
+margin-left:-140px;
+padding-right:150px;
+padding-top:220px !important;
+background-color:transparent;
+background-repeat:no-repeat no-repeat;
+background-size:cover;
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+box-shadow:rgba(63, 52, 60, 0.55) 0 0 8px 8px;
+position:absolute;
+z-index:1;
+}
+
+
+/*THUMBNAIL HOVER FLICKER FIX
+If you reposition your covers, and notice flickering, color this red, then reload your layout. Notice where the red bar appears when you point to your covers. Move that box with this code, over the parts where you point and see flickering. Then change it back to transparent!
+*/
+.hide:hover:after {
+background: transparent;
+content: " ";
+height: 75px;
+left: 0;
+position: absolute;
+top: 0;
+width: 210px;
+z-index: 20;
+}
+
+
+/*ANIMATION FOR ZOOM
+Change the timing of how long it takes for it zoom out here! Its set to .25 seconds by default.
+*/
+* {
+-webkit-transition:all 0.25s ease-in-out;
+transition:all 0.25s ease-in-out;
+}
+
+
+/*ROW WIDTH AND SPACING
+This will increase the height of your rows and move the anime title to the left. It might look funny on some layouts so you'll have to adjust it or ask for help! Height is the height, padding left is the space the anime title moves from the left.
+*/
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+height: 62px;
+padding-left: 42px;
+}
+
