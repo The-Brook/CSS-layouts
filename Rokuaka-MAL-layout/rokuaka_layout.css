@@ -58,3 +58,13 @@ a .header-title .list-table-header{
     background-color: rgba(108,110,183,0.5) !important;
     border: none;
 }
+
+/* PLAN TO WATCH etc. */
+.list-status-title {
+    background-color: rgba(108,110,183,1) !important;
+}
+
+/*  */
+.header-title {
+    background-color: rgba(108,110,183,0.75) !important;
+}
