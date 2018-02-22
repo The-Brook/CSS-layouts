@@ -84,3 +84,7 @@ td data .watching {
     font-weight: 300;
     color: #2A2856 !important;
 }
+
+.status-menu {
+    background-color: #2A2856 !important;
+}
