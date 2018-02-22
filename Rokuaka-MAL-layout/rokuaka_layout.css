@@ -57,6 +57,6 @@ a .header-title .list-table-header{
 
 /* list container */
 .list-container {
-    background-color: rgba(108,110,183,100) !important;
+    background-color: rgba(108,110,183,0.5) !important;
     border: none;
 }
