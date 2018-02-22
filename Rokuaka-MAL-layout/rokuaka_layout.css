@@ -101,7 +101,7 @@ td .data .status .watching {
 }
 
 .btn-menu {
-    margin-right: 100px !important;
+    margin-right: 0px !important;
 }
 
 .list-table-data:hover td {
@@ -119,10 +119,4 @@ td .data .status .watching {
 
 .add-edit-more {
     color: #2A2856 !important;
-}
-
-.list-unit .loading-space {
-    height: 250px;
-    width: 1000px;
-    background-image: url(http://i.imgur.com/oUcAp2Y.png);
 }
