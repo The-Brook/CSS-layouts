@@ -130,7 +130,7 @@ t div d .data .status .watching {
 }
 
 #cover-image {
-    display: none;
+    opacity: 0;
 }
 
 #cover-image-container {
