@@ -98,3 +98,7 @@ td .data .status .watching {
     color: #2A2856 !important;
     background-color: rgba(108,110,183,0.5) !important;
 }
+
+.list-menu-float {
+    margin-right: 0px;
+}
