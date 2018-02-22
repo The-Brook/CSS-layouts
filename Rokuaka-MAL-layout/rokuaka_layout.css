@@ -132,6 +132,10 @@ a .status-button {
     -o-transition: .4s ease;
 }
 
+.data a {
+    color: #2A2856;
+}
+
 .add-edit-more {
     color: #2A2856 !important;
 }
