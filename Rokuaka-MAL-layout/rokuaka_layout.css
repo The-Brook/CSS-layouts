@@ -99,17 +99,13 @@ t div d .data .status .watching {
     background-color: rgba(0,0,0,0);
 }
 
-.header-menu {
-    color: #2A2856 !important;
-    background-color: rgba(108,110,183,0.5) !important;
-}
-
 .list-menu-float {
     margin-right: 0px !important;
     border: none;
 }
 
 .btn-menu {
+    color: #2A2856 !important;
     margin-right: 0px !important;
 }
 
