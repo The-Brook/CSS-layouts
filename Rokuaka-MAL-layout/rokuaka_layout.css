@@ -164,3 +164,7 @@ a .status-button {
     background-color: #2A2856 !important;
 }
 
+.header .header-title {
+    background-color: #2A2856;
+    overflow: hidden;
+}
