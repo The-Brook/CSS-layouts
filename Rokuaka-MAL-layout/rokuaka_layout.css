@@ -88,3 +88,15 @@ td .data .status .watching {
 #status-menu {
     background-color: #2A2856 !important;
 }
+
+.list-menu-float {
+    position: fixed;
+}
+
+#cover-image {
+    display: none;
+}
+
+.cover-image-container {
+    background-image: url();
+}
