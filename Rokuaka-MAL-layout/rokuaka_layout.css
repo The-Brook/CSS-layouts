@@ -94,10 +94,7 @@ td .data .status .watching {
     position: fixed;
 }
 
-#cover-image {
-    display: none;
-}
-
-.cover-image-container {
-    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
+.header-menu {
+    color: #2A2856 !important;
+    background-color: rgba(108,110,183,0.5) !important;
 }
