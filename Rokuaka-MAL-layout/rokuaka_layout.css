@@ -130,3 +130,7 @@ td .data .status .watching {
     height: 280;
     z-index: 2;
 }
+
+.fa {
+    color: #2A2856 !important;
+}
