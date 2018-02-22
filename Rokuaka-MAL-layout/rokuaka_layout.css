@@ -41,6 +41,7 @@ body a {
 a.link.sort {
     font-weight: bold;
     color: #292755;
+    font-size: 1.6em;
 }
 
 .list-unit .list-status-title .text {
