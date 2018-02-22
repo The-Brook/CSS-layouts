@@ -107,6 +107,9 @@ t div d .data .status .watching {
 .btn-menu {
     color: #2A2856 !important;
     margin-right: 0px !important;
+    font-family: 'Francois One', sans-serif !important;
+    font-size: 20px;
+    position: absolute;
 }
 
 .list-table-data:hover t div d {
