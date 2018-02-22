@@ -95,6 +95,10 @@ a .status-button {
     color: #FFFFFF;
 }
 
+.status-menu-container .status-menu .status-button {
+    color: #FFFFFF;
+}
+
 .status_selected {
     background-color: rgba(0,0,0,0);
 }
