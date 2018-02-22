@@ -69,7 +69,7 @@ a .header-title .list-table-header{
     color: #2A2856 !important;
 }
 
-td data .watching {
+td .data .status .watching {
    background-color: #32E568 !important;
 }
 
