@@ -61,13 +61,8 @@ body a {
 
 /* label of the animes */
 .header-title {
-    background-color: rgba(108,110,183,0.75) !important;
+    background-color: #FFFFFF !important;
     font-family: 'Francois One', sans-serif;
     font-size: 1.4em;
-    color: #FFFFFF !important;
-}
-
-.list-table-header {
-    background-color: rgba(108,110,183,0.75) !important;
-    color: #FFFFFF !important;
+    color: rgba(108,110,183,0.75) !important;
 }
