@@ -42,7 +42,7 @@ body a {
     font-family: 'Francois One', sans-serif;
 }
 
-.header-title .list-table-header{
+a .header-title .list-table-header{
     color: #FFFFFF;
     font-family: 'Francois One', sans-serif;
     background-color: #292755;
