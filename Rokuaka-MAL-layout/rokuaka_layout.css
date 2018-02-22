@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Francois+One|Nanum+Pen+Script&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Nanum+Pen+Script|Merriweather+Sans&subset=latin-ext');
 /*
     font-family: 'Nanum Pen Script', cursive;
     font-family: 'Francois One', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 */
 
 /* body */
@@ -62,7 +63,7 @@ body a {
 /* label of the animes */
 .header-title {
     background-color: #FFFFFF !important;
-    font-family: 'Francois One', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.4em;
     color: #2A2856 !important;
 }
