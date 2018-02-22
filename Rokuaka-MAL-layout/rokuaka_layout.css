@@ -38,6 +38,11 @@ body a {
     font-family: 'Nanum Pen Script', cursive;
 }
 
+.list-table .list-table-header .header-title .link.sort {
+    font-weight: bold;
+    color: #292755;
+}
+
 .list-unit .list-status-title .text {
     color: #FFFFFF !important;
     font-family: 'Francois One', sans-serif;
