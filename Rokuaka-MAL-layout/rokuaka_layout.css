@@ -168,3 +168,11 @@ a .status-button {
     background-color: #2A2856;
     overflow: hidden;
 }
+
+#show-stats-button {
+    color: #2A2856;
+}
+
+#advanced-options-button {
+    color: #2A2856;
+}
