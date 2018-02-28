@@ -176,3 +176,8 @@ a .status-button {
 #advanced-options-button {
     color: #2A2856;
 }
+
+a.header-title {
+    background-color: none;
+    text-indent: 0px;
+}
