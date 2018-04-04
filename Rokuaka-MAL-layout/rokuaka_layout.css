@@ -27,14 +27,11 @@ div.list-container#list-container {
     background-color: rgba(75,71,121,0.5) !important;
 }
 
-a.icon-menu.profile {
-    border-radius: 100%;
-    opacity: 0.75;
-}
-
-.icon-menu .profile:hover {
-    animation-name: hoverProfile;
-    animation-duration: 0.5s;
+a.link .sort {
+    color: #4B4779;
+    font-size: 0.5em;
+    font-weight: bold;
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 .header .header-menu {
@@ -60,14 +57,4 @@ div#cover-image-container{
     /* Removes normal logo */
     visibility: hidden;
     content: none;
-}
-
-@keyframes hoverProfile {
-    from {
-        opacity: 0.75;
-    }
-
-    to {
-        opacity: 1;
-    }
 }
