@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Francois+One|Nanum+Pen+Script|Merriweather+Sans&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Nanum+Pen+Script|Domine|Merriweather+Sans&subset=latin-ext');
 /*
     font-family: 'Nanum Pen Script', cursive;
     font-family: 'Francois One', sans-serif;
     font-family: 'Merriweather Sans', sans-serif;
 */
 
+body {
+    background-image: image("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/background.jpg");
+}
+
+.header .header-menu {
+    font-family: 'Domine', serif;
+}
+
 #copyright:after {
 /* Custom copyright text */
 content: "Modern layout made by The_Br00k";
 }
-
