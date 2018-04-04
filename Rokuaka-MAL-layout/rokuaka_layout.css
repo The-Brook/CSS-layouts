@@ -48,7 +48,7 @@ div#status-menu.status-menu-container, .status-button {
 }
 
 .status-button::after{
-    border-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .list-unit .list-status-title .text{
