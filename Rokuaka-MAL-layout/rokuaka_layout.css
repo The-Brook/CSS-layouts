@@ -81,8 +81,8 @@ div#cover-image-container{
 }
 
 .data.tags a[href~="tag"]:hover {
-    filter: brightness(75%);
-    -webkit-filter: brightness(75%);
+    filter: brightness(150%) !important;
+    -webkit-filter: brightness(150%) !important;
 }
 
 .data.tags a[href$="mecha"] {
@@ -99,6 +99,38 @@ div#cover-image-container{
 
 .data.tags a[href$="romance"] {
     color: #D8009B !important;
+}
+
+.data.tags a[href$="ecchi"] {
+    color: #EA5DC6 !important;
+}
+
+.data.tags a[href$="slice%20of%20%life"] {
+    color: #37C42B !important;
+}
+
+.data.tags a[href$="music"] {
+    color: #FFFB11 !important;
+}
+
+.data.tags a[href$="comedy"] {
+    color: #FF7338 !important;
+}
+
+.data.tags a[href$="magic"] {
+    color: #A256FF !important;
+}
+
+.data.tags a[href$="fantasy"] {
+    color: #EEFF32 !important;
+}
+
+.data.tags a[href$="drama"] {
+    color: #293A4C !important;
+}
+
+.data.tags a[href$="horror"] {
+    color: #7F0400 !important;
 }
 
 /* Animations */
