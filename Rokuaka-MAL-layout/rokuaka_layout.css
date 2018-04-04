@@ -95,10 +95,8 @@ th.list-table .list-table-header .header-title {
     color: #FFFFFF !important;
 }
 
-th.header-title .status, th.header-title .number, th.header-title .image, th.header-title .title, th.header-title .score, th.header-title .type, th.header-title .progress, th.header-title .tags{
-    background-color: #323051 !important;
-    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
-    color: #FFFFFF !important;
+.list-unit .list-status-title {
+    background-color: blue;
 }
 
 .icon-menu .profile {
