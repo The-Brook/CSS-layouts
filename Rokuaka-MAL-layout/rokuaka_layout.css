@@ -17,7 +17,7 @@ body.ownlist {
 }
 
 #ghostery-purple-box {
-  /* Disables Ghostery Box */
+  /* Disables Ghostery box */
   display: none !important
  }
 
@@ -40,7 +40,7 @@ div#list-container.list-container {
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-div.list-status-title {
+div.list-status-title .text{
     /* Table title */
     background-color: #4B4779 !important;
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
@@ -83,6 +83,11 @@ div#cover-image-container{
     /* Removes normal logo */
     visibility: hidden;
     content: none;
+}
+
+/* Completion */
+td.data.status.completed {
+
 }
 
 /* Tags */
