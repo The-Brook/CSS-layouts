@@ -34,10 +34,17 @@ div#list-container.list-container {
 }
 
 .list-table .list-table-data .data.title .link .sort {
+    /* Anime names */
     color: #4B4779 !important;
     font-size: 1.5em !important;
     font-weight: bold;
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+div#status-menu.status-menu-container {
+    /* Status headers */
+    background-color: #4B4779 !important;
+    color: #FFFFFF !important;
 }
 
 .list-unit .list-status-title .text{
@@ -53,8 +60,13 @@ div#list-container.list-container {
     color: #FFFFFF !important;
 }
 
-.fa-filter, .fa-bar-chart, .stats {
+.fa-filter, .fa-bar-chart, .fa-fa-search, .stats {
     /* Icons in the header*/
+    color: #FFFFFF !important;
+}
+
+.fa-filter:hover, .fa-bar-chart:hover, .fa-fa-search:hover {
+    /* Hover on icons in the header*/
     color: #FFFFFF !important;
 }
 
