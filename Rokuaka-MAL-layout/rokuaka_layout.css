@@ -42,7 +42,7 @@ div.header .header-title {
     content: "Modern layout made by The_Br00k";
 }
 
-div#cover-image-container {
+div#cover-image-container .cover-image-container{
     /* Changes the MyAnimeList.net logo (must be a transparency supporting file) */
     background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
     background-color: none;
@@ -52,7 +52,7 @@ div#cover-image-container {
     z-index: 9999;
 }
 
-div#cover-image {
+img#cover-image {
     /* Removes normal logo */
     visibility: hidden;
 }
