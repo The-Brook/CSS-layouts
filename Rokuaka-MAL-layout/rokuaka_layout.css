@@ -7,6 +7,7 @@
 
 body {
     background-image: image("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/background.jpg");
+    background-color: none;
 }
 
 .header .header-menu {
