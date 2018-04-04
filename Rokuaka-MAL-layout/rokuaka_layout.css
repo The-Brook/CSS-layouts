@@ -12,7 +12,10 @@ body.ownlist {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+}
 
+#list-container {
+    background-color: RGBA(75,71,121,0.5);
 }
 
 .header .header-menu {
