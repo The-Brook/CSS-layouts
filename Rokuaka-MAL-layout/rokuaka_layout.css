@@ -5,9 +5,9 @@
     font-family: 'Merriweather Sans', sans-serif;
 */
 
-body {
-    background-image: image("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/background.jpg");
-    background-color: none;
+body.ownlist-anime {
+    background-image: image("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/background.jpg") !important;
+    background-color: none !important;
 }
 
 .header .header-menu {
