@@ -70,6 +70,19 @@ div#cover-image-container{
     content: none;
 }
 
+/* Tags */
+.data.tags a[href$="mecha"] {
+    color: #D33260;
+}
+
+.data.tags a[href$="combat"] {
+    color: #72131E;
+}
+
+.data.tags a[href$="harem"] {
+    color: #D8009B;
+}
+
 @keyframes profileHover {
     from {
         opacity: 0.75;
