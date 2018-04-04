@@ -47,6 +47,13 @@ div#list-container.list-container {
 }
 
 .fa-filter, .fa-bar-chart, .stats {
+    /* Icons */
+    color: #FFFFFF !important;
+}
+
+span.content-status {
+    font-family: 'Domine' !important;
+    font-weight: bold;
     color: #FFFFFF !important;
 }
 
