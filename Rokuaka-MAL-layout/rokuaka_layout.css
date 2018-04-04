@@ -48,7 +48,7 @@ div#cover-image-container{
     background-color: none;
     background-repeat: no-repeat;
     background-size: cover;
-    background-positions: fixed;
+    background-position: fixed;
     z-index: 4;
 }
 
