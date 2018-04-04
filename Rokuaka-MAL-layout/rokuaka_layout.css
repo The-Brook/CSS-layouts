@@ -165,6 +165,10 @@ div#cover-image-container{
     color: #9B5700 !important;
 }
 
+.data.tags a[href$="food"] {
+    color: #992C5F !important;
+}
+
 /* Animations */
 
 @keyframes profileHover {
