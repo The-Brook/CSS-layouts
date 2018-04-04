@@ -72,15 +72,15 @@ div#cover-image-container{
 
 /* Tags */
 .data.tags a[href$="mecha"] {
-    color: #D33260;
+    color: #D33260 !important;
 }
 
 .data.tags a[href$="combat"] {
-    color: #72131E;
+    color: #72131E !important;
 }
 
 .data.tags a[href$="harem"] {
-    color: #D8009B;
+    color: #D8009B !important;
 }
 
 @keyframes profileHover {
