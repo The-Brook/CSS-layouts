@@ -16,6 +16,11 @@ body.ownlist {
     background-attachment: fixed;
 }
 
+#ghostery-purple-box {
+  /* Disables Ghostery Box */
+  display: none !important
+ }
+
 div#list-container.list-container {
     /* List style */
     background-color: rgba(75,71,121,0.75) !important;
@@ -36,15 +41,19 @@ div#list-container.list-container {
 }
 
 div.list-status-title {
-    background-color: #4B4779 !important;*/
+    /* Table title */
+    background-color: #4B4779 !important;
+    color: #FFFFFF;
 }
 
 .icon-menu .profile {
+    /* Profile image style */
     border-radius: 100%;
     opacity: 0.75;
 }
 
 .icon-menu .profile:hover {
+    /* Profile image animation */
     animation-name: profileHover;
     animation-duration: 0.5s;
 }
@@ -65,6 +74,7 @@ div.header .header-title {
 }
 
 div#cover-image-container{
+    /* Removes title logo */
     display: none;
 }
 
