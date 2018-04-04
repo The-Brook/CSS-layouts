@@ -41,10 +41,14 @@ div#list-container.list-container {
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-div#status-menu.status-menu-container {
+div#status-menu.status-menu-container, .status-button {
     /* Status headers */
     background-color: #4B4779 !important;
     color: #FFFFFF !important;
+}
+
+a.status-button {
+    border-color: #FFFFFF;
 }
 
 .list-unit .list-status-title .text{
