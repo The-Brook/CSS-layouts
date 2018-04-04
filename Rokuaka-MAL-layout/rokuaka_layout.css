@@ -88,6 +88,13 @@ tbody tr.list-table-header {
     color: #FFFFFF !important;
 }
 
+.list-table .list-table-header .header-title {
+    /* Table header */
+    background-color: #323051 !important;
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+    color: #FFFFFF !important;
+}
+
 .icon-menu .profile {
     /* Profile image style */
     border-radius: 100%;
