@@ -81,11 +81,13 @@ span.content-status {
     color: #FFFFFF !important;
 }
 
-tbody tr.list-table-header {
+tbody, tr.list-table-header {
     /* Table header */
     background-color: #323051 !important;
+    background-image: none;
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
     color: #FFFFFF !important;
+    border: none;
 }
 
 th.list-table .list-table-header .header-title {
@@ -95,10 +97,6 @@ th.list-table .list-table-header .header-title {
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
     color: #FFFFFF !important;
     border: none;
-}
-
-.list-unit .list-status-title {
-    background-color: blue !important;
 }
 
 .icon-menu .profile {
