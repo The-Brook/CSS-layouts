@@ -75,6 +75,11 @@ div#cover-image-container{
 }
 
 /* Tags */
+.data.tags {
+    font-weight: bold;
+    font-family: 'Merriweather Sans';
+}
+
 .data.tags a[href$="mecha"] {
     color: #D33260 !important;
 }
