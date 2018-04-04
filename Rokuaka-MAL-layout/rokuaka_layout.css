@@ -14,7 +14,11 @@ body.ownlist {
     background-attachment: fixed;
 }
 
-#list-container .list-container {
+.list-container {
+    background-color: rgba(75,71,121,0.5) !important;
+}
+
+.list-menu-float {
     background-color: rgba(75,71,121,0.5) !important;
 }
 
