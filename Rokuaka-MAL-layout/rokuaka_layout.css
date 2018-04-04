@@ -22,7 +22,7 @@ body.ownlist-anime {
 
 #cover-image {
     /* Changes the MyAnimeList.net logo (must be a transparency supporting file) */
-    visibility: hidden;
+
     background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
     z-index: 3;
 }
