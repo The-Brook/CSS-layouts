@@ -40,8 +40,13 @@ div#list-container.list-container {
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-.list-unit .list-status-title .text, #show-stats-button, #advanced-options-button{
+.list-unit .list-status-title .text{
     /* Table title */
+    background-color: #4B4779 !important;
+    color: #FFFFFF !important;
+}
+
+#show-stats-button, #advanced-options-button {
     background-color: #4B4779 !important;
     color: #FFFFFF !important;
 }
