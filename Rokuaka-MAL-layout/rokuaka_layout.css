@@ -96,7 +96,7 @@ th.list-table .list-table-header .header-title {
 }
 
 .list-unit .list-status-title {
-    background-color: blue;
+    background-color: blue !important;
 }
 
 .icon-menu .profile {
