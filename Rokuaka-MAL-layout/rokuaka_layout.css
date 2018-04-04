@@ -29,8 +29,8 @@ div.list-container#list-container {
 }
 
 .list-table .list-table-data .data.title .link .sort {
-    color: #4B4779;
-    font-size: 0.5em;
+    color: #4B4779 !important;
+    font-size: 1.5em !important;
     font-weight: bold;
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
