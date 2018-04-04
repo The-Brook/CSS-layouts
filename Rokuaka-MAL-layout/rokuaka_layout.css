@@ -46,6 +46,11 @@ div.list-status-title {
     color: #FFFFFF;
 }
 
+div.list-status-title .text {
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color: #FFFFFF;
+}
+
 .icon-menu .profile {
     /* Profile image style */
     border-radius: 100%;
