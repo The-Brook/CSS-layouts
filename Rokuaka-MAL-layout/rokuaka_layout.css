@@ -32,6 +32,10 @@ div.list-menu-float {
     font-family: 'Domine', serif;
 }
 
+div.header .list-container#list-container {
+    margin-left: 50%;
+}
+
 div.header .header-title {
     /* Change the small MyAnimeListLogo */
     background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo-small.png") !important;
