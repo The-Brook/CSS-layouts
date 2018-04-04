@@ -47,7 +47,7 @@ div#status-menu.status-menu-container, .status-button {
     color: #FFFFFF !important;
 }
 
-a.status-button {
+.status-button::after{
     border-color: #FFFFFF;
 }
 
