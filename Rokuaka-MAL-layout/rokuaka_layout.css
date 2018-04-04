@@ -7,7 +7,7 @@
 
 body.ownlist-anime {
     background-image: image("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/background.jpg") !important;
-    background-color: none !important;
+    background-color: whitesmoke;
 }
 
 .header .header-menu {
