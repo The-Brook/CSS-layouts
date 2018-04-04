@@ -40,14 +40,17 @@ div#list-container.list-container {
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-div.list-status-title .text, div.list-status-title .stats{
+.list-unit .list-status-title .stats{
     /* Table title */
     background-color: #4B4779 !important;
-    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
     color: #FFFFFF !important;
 }
 
-th.header-title {
+.fa-filter, .fa-bar-chart, .stats {
+    color: #FFFFFF !important;
+}
+
+tr.list-table-header {
     /* Table header */
     background-color: #4B4779 !important;
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
@@ -149,7 +152,7 @@ td.data.status.completed {
 }
 
 .data.tags a[href$="fantasy"] {
-    color: #EEFF32 !important;
+    color: #FFE66B !important;
 }
 
 .data.tags a[href$="drama"] {
