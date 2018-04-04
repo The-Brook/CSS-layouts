@@ -35,6 +35,10 @@ div.list-container #list-container {
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
+div.list-status-title {
+    background-color: #4B4779 !important;
+}
+
 .icon-menu .profile {
     border-radius: 100%;
     opacity: 0.75;
