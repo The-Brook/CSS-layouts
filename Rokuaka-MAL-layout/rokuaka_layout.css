@@ -22,7 +22,6 @@ body {
 
 #cover-image {
     /* Changes the MyAnimeList.net logo (must be a transparency supporting file) */
-    display: none;
     visibility: hidden;
     background-image: image("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
     z-index: 3;
