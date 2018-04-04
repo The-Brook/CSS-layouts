@@ -43,12 +43,8 @@ div#list-container.list-container {
 div.list-status-title {
     /* Table title */
     background-color: #4B4779 !important;
-    color: #FFFFFF;
-}
-
-div.list-status-title .text {
-    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-    color: #FFFFFF;
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+    color: #FFFFFF !important;
 }
 
 .icon-menu .profile {
