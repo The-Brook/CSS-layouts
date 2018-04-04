@@ -56,4 +56,5 @@ div#cover-image-container{
     /* Removes normal logo */
     visibility: hidden;
     content: none;
+    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
 }
