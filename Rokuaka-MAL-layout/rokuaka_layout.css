@@ -43,18 +43,11 @@ div.header .header-title {
 }
 
 div#cover-image-container{
-    /* Changes the MyAnimeList.net logo (must be a transparency supporting file) */
-    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
-    background-color: none;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: fixed;
-    z-index: 4;
+    display: none;
 }
 
 #cover-image {
     /* Removes normal logo */
     visibility: hidden;
     content: none;
-    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
 }
