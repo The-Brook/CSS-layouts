@@ -27,13 +27,13 @@ div.list-container#list-container {
     background-color: rgba(75,71,121,0.5) !important;
 }
 
-.icon-menu .profile {
+a.icon-menu.profile {
     border-radius: 100%;
     opacity: 0.75;
 }
 
 .icon-menu .profile:hover {
-    animation-name: profileHover;
+    animation-name: hoverProfile;
     animation-duration: 0.5s;
 }
 
