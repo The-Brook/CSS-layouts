@@ -47,12 +47,14 @@ div#list-container.list-container {
 }
 
 #show-stats-button, #advanced-options-button {
+    /* Text near icons in the header */
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     background-color: #4B4779 !important;
     color: #FFFFFF !important;
 }
 
 .fa-filter, .fa-bar-chart, .stats {
-    /* Icons */
+    /* Icons in the header*/
     color: #FFFFFF !important;
 }
 
