@@ -16,7 +16,7 @@ body.ownlist {
     background-attachment: fixed;
 }
 
-div.list-container#list-container {
+div.list-container #list-container {
     /* List style */
     background-color: rgba(75,71,121,0.5) !important;
     border: none;
