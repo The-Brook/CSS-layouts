@@ -40,7 +40,7 @@ div#list-container.list-container {
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-.list-unit .list-status-title .stats{
+.list-unit .list-status-title .text, #show-stats-button, #advanced-options-button{
     /* Table title */
     background-color: #4B4779 !important;
     color: #FFFFFF !important;
