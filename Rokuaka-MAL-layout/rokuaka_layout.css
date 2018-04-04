@@ -10,10 +10,21 @@ body {
 }
 
 .header .header-menu {
+    /* Changes the font of "Viewing [user] anime list" */
     font-family: 'Domine', serif;
 }
 
 #copyright:after {
-/* Custom copyright text */
-content: "Modern layout made by The_Br00k";
+    /* Custom copyright text */
+    content: "Modern layout made by The_Br00k";
+}
+
+#cover-image {
+    /* Removes MyAnimeList.net logo */
+    display: none;
+}
+
+#cover-image-container {
+    /* Changes the MyAnimeList.net logo (must be a transparency supporting file) */
+    background-image: image("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
 }
