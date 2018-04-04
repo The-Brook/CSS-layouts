@@ -18,13 +18,13 @@ body.ownlist {
 
 div#list-container.list-container {
     /* List style */
-    background-color: rgba(75,71,121,0.5) !important;
+    background-color: rgba(75,71,121,0.75) !important;
     border: none;
 }
 
 .list-menu-float .icon-menu {
     /* Left menu style */
-    background-color: rgba(75,71,121,0.5) !important;
+    background-color: rgba(75,71,121,0.75) !important;
     border: none;
 }
 
@@ -135,6 +135,34 @@ div#cover-image-container{
 
 .data.tags a[href$="horror"] {
     color: #7F0400 !important;
+}
+
+.data.tags a[href$="yuri"] {
+    color: #66FFA5 !important;
+}
+
+.data.tags a[href$="yaoi"] {
+    color: #7F00FF !important;
+}
+
+.data.tags a[href$="isekai"] {
+    color: #1414FF !important;
+}
+
+.data.tags a[href$="games"] {
+    color: #007FFF !important;
+}
+
+.data.tags a[href$="psychological"] {
+    color: #7FFF00 !important;
+}
+
+.data.tags a[href$="parody"] {
+    color: #319E3B !important;
+}
+
+.data.tags a[href$="commercial"] {
+    color: #9B5700 !important;
 }
 
 /* Animations */
