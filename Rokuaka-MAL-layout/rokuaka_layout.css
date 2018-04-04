@@ -47,6 +47,13 @@ div.list-status-title .text, div.list-status-title .stats{
     color: #FFFFFF !important;
 }
 
+th.header-title {
+    /* Table header */
+    background-color: #4B4779 !important;
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+    color: #FFFFFF !important;
+}
+
 .icon-menu .profile {
     /* Profile image style */
     border-radius: 100%;
@@ -110,7 +117,7 @@ td.data.status.completed {
 }
 
 .data.tags a[href$="harem"] {
-    color: #D8009B !important;
+    color: #E86584 !important;
 }
 
 .data.tags a[href$="romance"] {
