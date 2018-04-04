@@ -6,8 +6,8 @@
 */
 
 body.ownlist-anime {
-    background-image: image("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/background.jpg") !important;
-    background-color: whitesmoke;
+    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/background.jpg") !important;
+    background-color: none;
 }
 
 .header .header-menu {
@@ -23,6 +23,6 @@ body.ownlist-anime {
 #cover-image {
     /* Changes the MyAnimeList.net logo (must be a transparency supporting file) */
     visibility: hidden;
-    background-image: image("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
+    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
     z-index: 3;
 }
