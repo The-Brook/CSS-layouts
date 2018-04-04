@@ -36,7 +36,7 @@ div.list-container #list-container {
 }
 
 div.list-status-title {
-    background-color: #4B4779 !important;
+    /*background-color: #4B4779 !important;*/
 }
 
 .icon-menu .profile {
@@ -80,6 +80,11 @@ div#cover-image-container{
     font-family: 'Merriweather Sans';
 }
 
+.data.tags:hover {
+    filter: brightness(75%);
+    -webkit-filter: brightness(75%);
+}
+
 .data.tags a[href$="mecha"] {
     color: #D33260 !important;
 }
@@ -91,6 +96,12 @@ div#cover-image-container{
 .data.tags a[href$="harem"] {
     color: #D8009B !important;
 }
+
+.data.tags a[href$="romance"] {
+    color: #D8009B !important;
+}
+
+/* Animations */
 
 @keyframes profileHover {
     from {
