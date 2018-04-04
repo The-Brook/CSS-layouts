@@ -27,6 +27,16 @@ div.list-container#list-container {
     background-color: rgba(75,71,121,0.5) !important;
 }
 
+.icon-menu .profile {
+    border-radius: 100%;
+    opacity: 0.75;
+}
+
+.icon-menu .profile:hover {
+    animation-name: profileHover;
+    animation-duration: 0.5s;
+}
+
 .header .header-menu {
     /* Changes the font of "Viewing [user] anime list" */
     font-family: 'Domine', serif;
@@ -50,4 +60,14 @@ div#cover-image-container{
     /* Removes normal logo */
     visibility: hidden;
     content: none;
+}
+
+@keyframes hoverProfile {
+    from {
+        opacity: 0.75;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
