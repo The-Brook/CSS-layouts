@@ -5,3 +5,8 @@
     font-family: 'Merriweather Sans', sans-serif;
 */
 
+#copyright:after {
+/* Custom copyright text */
+content: "Modern layout made by The_Br00k";
+}
+

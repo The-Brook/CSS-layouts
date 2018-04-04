@@ -1,0 +1,169 @@
+body {
+background-color: teal;
+}
+
+/* HEADER */
+
+.header {
+background-color: pink;
+}
+
+.header .header-menu {
+/* "Viewing someone's list" */
+background-color: gray;
+}
+
+.header .header-title {
+/* MyAnimeList Logo */
+background-color: green;
+}
+
+/* LIST MENU */
+
+.list-menu-float {
+border: 3px solid red;
+}
+
+.list-menu-float .icon-menu {
+/* All list menu buttons */
+background-color: green;
+}
+
+.list-menu-float .icon-menu.anime-list {
+/* Specific list menu button */
+background-color: blue;
+}
+
+/* LIST CONTAINER */
+
+#list-container {
+background-color: purple;
+}
+
+/* IMAGE BLOCK */
+
+.cover-block {
+background-color: red;
+}
+
+.cover-block #cover-image {
+/* Cover image */
+border: 6px solid green;
+}
+
+.cover-block .image-container .btn-list-setting {
+/* Settings button */
+background-color: yellow;
+}
+
+/* STATUS MENU */
+
+#status-menu {
+background-color: wheat;
+}
+
+#status-menu .status-button {
+/* All status buttons */
+background-color: white;
+}
+
+#status-menu .status-button.watching {
+/* Specific status button */
+background-color: brown;
+}
+
+/* SEARCH */
+
+.status-menu-container .search-container {
+background-color: orange;
+}
+
+/* LIST UNIT */
+
+.list-unit {
+border: 3px solid red;
+}
+
+/* STATUS TITLE */
+
+.list-unit .list-status-title {
+background-color: blue;
+}
+
+/* STATS */
+
+#show-stats-button {
+/* Duh */
+background-color: teal;
+}
+
+#advanced-options-button {
+/* Duh */
+background-color: lime;
+}
+
+.list-unit .list-stats {
+/* Stat bar */
+background-color: orange;
+}
+
+/* LIST TABLE */
+
+/* Sort row */
+
+.list-table .list-table-header {
+border: 3px solid yellow;
+}
+
+.list-table .list-table-header .header-title {
+/* All sort cells */
+background-color: green;
+}
+
+.list-table .list-table-header .header-title.title {
+/* Specific sort cell */
+background-color: orange;
+}
+
+/* Data rows */
+
+.list-table tbody.list-item {
+border: 3px solid pink;
+}
+
+.list-table .list-table-data .data {
+/* All data cells */
+background-color: cyan;
+}
+
+.list-table .list-table-data .data.score {
+/* Specific data cell */
+background-color: wheat;
+}
+
+.list-table .list-table-data .data.title .link {
+/* Anime titles */
+color: magenta;
+}
+
+.add-edit-more {
+/* Duh */
+background-color: red;
+}
+
+/* LOADING SPACE */
+
+.list-unit .loading-space {
+background-color: blue;
+}
+
+/* FOOTER */
+
+footer {
+background-color: orange;
+}
+
+#copyright:after {
+/* Custom copyright text */
+content: "Color-coded starter layout by Shishio-kun & Doomcat55.";
+}
