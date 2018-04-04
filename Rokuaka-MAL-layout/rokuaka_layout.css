@@ -3,6 +3,7 @@
     font-family: 'Nanum Pen Script', cursive;
     font-family: 'Francois One', sans-serif;
     font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Domine', serif;
 */
 
 body.ownlist {
@@ -15,16 +16,23 @@ body.ownlist {
 }
 
 div.list-container#list-container {
+    /* List style */
     background-color: rgba(75,71,121,0.5) !important;
+    border: none;
 }
 
-.list-menu-float {
+div.list-menu-float {
+    /* Left menu style */
     background-color: rgba(75,71,121,0.5) !important;
 }
 
 .header .header-menu {
     /* Changes the font of "Viewing [user] anime list" */
     font-family: 'Domine', serif;
+}
+
+.header .header-title {
+    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo-small.png") !important;
 }
 
 #copyright:after {
