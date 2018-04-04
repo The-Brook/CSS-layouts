@@ -31,7 +31,7 @@ div.list-menu-float {
     font-family: 'Domine', serif;
 }
 
-.header .header-title {
+div.header .header-title {
     background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo-small.png") !important;
 }
 
@@ -42,11 +42,12 @@ div.list-menu-float {
 
 #cover-image {
     /* Changes the MyAnimeList.net logo (must be a transparency supporting file) */
-    visibility: hidden;
+    /*visibility: hidden;*/
     background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo.png");
+    content: none;
     background-color: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-positions: fixed;
-    z-index: 3;
+    z-index: 9999;
 }
