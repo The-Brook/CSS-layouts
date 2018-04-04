@@ -36,7 +36,7 @@ div.list-container #list-container {
 }
 
 div.list-status-title {
-    /*background-color: #4B4779 !important;*/
+    background-color: #4B4779 !important;*/
 }
 
 .icon-menu .profile {
@@ -105,7 +105,7 @@ div#cover-image-container{
     color: #EA5DC6 !important;
 }
 
-.data.tags a[href$="slice%20of%20%life"] {
+.data.tags a[href$="slice%20of%20life"] {
     color: #37C42B !important;
 }
 
@@ -115,6 +115,10 @@ div#cover-image-container{
 
 .data.tags a[href$="comedy"] {
     color: #FF7338 !important;
+}
+
+.data.tags a[href$="school"] {
+    color: #FFC03A !important;
 }
 
 .data.tags a[href$="magic"] {
