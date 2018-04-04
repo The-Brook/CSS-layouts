@@ -52,7 +52,8 @@ div#cover-image-container .cover-image-container{
     z-index: 9999;
 }
 
-img#cover-image {
+#cover-image {
     /* Removes normal logo */
     visibility: hidden;
+    content: none;
 }
