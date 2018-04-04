@@ -80,7 +80,7 @@ div#cover-image-container{
     font-family: 'Merriweather Sans';
 }
 
-.data.tags:hover {
+.data.tags a[href~="tag"]:hover {
     filter: brightness(75%);
     -webkit-filter: brightness(75%);
 }
