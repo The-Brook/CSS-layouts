@@ -81,7 +81,7 @@ span.content-status {
     color: #FFFFFF !important;
 }
 
-tbody, tr.list-table-header {
+tr.list-table-header {
     /* Table header */
     background-color: #323051 !important;
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
