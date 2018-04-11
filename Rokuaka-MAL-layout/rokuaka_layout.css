@@ -155,7 +155,7 @@ td.data.status.completed {
     color: #D33260 !important;
 }
 
-.data.tags a[href$="combat"] {
+.data.tags a[href$="action"] {
     color: #72131E !important;
 }
 
@@ -195,8 +195,24 @@ td.data.status.completed {
     color: #FFE66B !important;
 }
 
+.data.tags a[href$="sci-fi"] {
+    color: #BADCFF !important;
+}
+
 .data.tags a[href$="drama"] {
+    color: #FFFFA0 !important;
+}
+
+.data.tags a[href$="game"] {
     color: #293A4C !important;
+}
+
+.data.tags a[href$="sport"] {
+    color: #BFFFB2 !important;
+}
+
+.data.tags a[href$="supernatural"] {
+    color: #FF7423 !important;
 }
 
 .data.tags a[href$="horror"] {
