@@ -140,6 +140,13 @@ td.data.status.completed {
 
 }
 
+tr.list-table-header {
+    background-color: #26243D !important;
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+    color: #FFFFFF !important;
+    border: none;
+}
+
 /* Tags */
 .data.tags {
     font-weight: bold;
