@@ -142,6 +142,7 @@ td.data.status.completed {
 
 tr.list-table-header {
     background-color: #26243D !important;
+    background-image: none;
     font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
     color: #FFFFFF !important;
     border: none;
