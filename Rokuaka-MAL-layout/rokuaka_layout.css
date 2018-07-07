@@ -259,6 +259,13 @@ tr.list-table-header {
     color: #992C5F !important;
 }
 
+.data.tags a[href$="thriller"] {
+    color: #FFFFFF !important;
+}
+
+.link .sort {
+    color: #38365B !important;
+}
 /* Animations */
 
 @keyframes profileHover {
