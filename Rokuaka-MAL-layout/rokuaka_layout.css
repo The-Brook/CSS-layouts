@@ -8,7 +8,7 @@
 
 body.ownlist {
     /* Changes body background */
-    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/background.jpg") !important;
+    background-image: url("https://cdn.jsdelivr.net/gh/The-Brook/CSS-layouts/Rokuaka-MAL-layout/images/background.jpg") !important;
     background-color: none;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +116,7 @@ th.list-table .list-table-header .header-title {
 
 div.header .header-title {
     /* Change the small MyAnimeListLogo */
-    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo-small.png") !important;
+    background-image: url("https://cdn.jsdelivr.net/gh/The-Brook/CSS-layouts/Rokuaka-MAL-layout/images/mal-logo-small.png") !important;
 }
 
 #copyright:after {
