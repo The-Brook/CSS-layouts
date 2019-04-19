@@ -9,7 +9,7 @@
 /* GLOBAL */
 body.ownlist {
     /* Changes body background */
-    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/background.jpg") !important;
+    background-image: url("https://cdn.jsdelivr.net/gh/The-Brook/CSS-layouts/Rokuaka-MAL-layout/images/background.jpg") !important;
     background-color: rgba(0,0,0,0);
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,7 +142,7 @@ th.list-table,
 
 /* Small MyAnimeListLogo */
 .header .header-title {
-    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo-small.png") !important;
+    background-image: url("https://cdn.jsdelivr.net/gh/The-Brook/CSS-layouts/Rokuaka-MAL-layout/images/mal-logo-small.png") !important;
 }
 
 /* Custom copyright text */
