@@ -221,9 +221,25 @@ tr.list-table-header {
     fill: #9A9EE4 !important;
 }
 
+#footer-block::before {
+    display: block;
+    position: fixed;
+    content: "";
+    background: url("https://cdn.jsdelivr.net/gh/The-Brook/CSS-layouts/Rokuaka-MAL-layout/images/sistine_sunflower.png") no-repeat 0 0;
+    background-color: transparent;
+    background-size: contain;
+    width: 100%;
+    height: 35%;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
 #footer-block{
     background-color: #323051 !important;
     color: #F0E7F7;
+    padding: 10px;
+    z-index: -2;
 }
 
 /* Links */
