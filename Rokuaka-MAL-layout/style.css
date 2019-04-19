@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Nanum+Pen+Script|Domine|Merriweather+Sans&subset=latin-ext');
+/*
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Domine', serif;
+*/
+
+/* GLOBAL */
+body.ownlist {
+    /* Changes body background */
+    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/background.jpg") !important;
+    background-color: rgba(0,0,0,0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* Disables Ghostery box */
+#ghostery-purple-box {
+    display: none !important
+}
+
+/* List style */
+div#list-container.list-container {
+    background-color: rgba(75, 71, 121, 0.85) !important;
+    border: none;
+}
+
+/* List table title */
+.list-table .title a:not(.data.tags),
+#advanced-options-button,
+#show-stats-button {
+    color: #F0E7F7 !important;
+    font-size: 1.5em !important;
+    font-weight: bold;
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Table texts */
+.list-table .list-table-data .data a {
+    color: #F0E7F7 !important;
+}
+
+/* Status headers */
+div#status-menu.status-menu-container,
+.status-button,
+tr.list-table-header {
+    background-color: #4B4779 !important;
+    font-size: 14px;
+    color: #F0E7F7 !important;
+}
+
+.status-button::after {
+    background-color: #F0E7F7 !important;
+}
+
+/* Text near icons in the header */
+#show-stats-button,
+#advanced-options-button {
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    background-color: #4B4779 !important;
+    color: #F0E7F7 !important;
+}
+
+/* Icons in the header*/
+.fa-filter,
+.fa-bar-chart,
+.fa-fa-search,
+.stats,
+.fa-search,
+.sort-icon {
+    color: #F0E7F7 !important;
+}
+
+/* Search box */
+#search-box input {
+    background: 0;
+    border: 0;
+    color: #F0E7F7;
+}
+
+/* Opened search box */
+#search-box.open {
+    background: #26243D;
+    border-bottom: 2px solid white;
+}
+
+/* Anime airing status */
+span.content-status {
+    font-family: 'Domine' !important;
+    font-weight: bold;
+    color: #F0E7F7 !important;
+}
+
+/* Airing status */
+tr.list-table-header {
+    background-color: #323051 !important;
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+    color: #FFFFFF !important;
+}
+
+/* Edit */
+.list-table .list-table-data .tags .edit {
+    color: #E4ED90 !important;
+    transition: 0.5 color;
+}
+
+/* Edit hover event */
+.list-table .list-table-data .tags .edit:hover {
+    color: #50713C !important;
+}
+
+/* Table titles */
+.list-table .list-table-header .header-title,
+.list-table .list-table-header .header-title .link,
+.list-unit .list-status-title .text,
+.hover_info
+{
+    background-color: #323051 !important;
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+    color: #F0E7F7 !important;
+}
+
+/* Table header */
+th.list-table,
+.list-table-header,
+#show-stats-button,
+#advanced-options-button {
+    background-color: #323051 !important;
+    background-image: none;
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+    color: #F0E7F7 !important;
+    border: none;
+}
+
+/* Changes the font of "Viewing [user] anime list" */
+.header .header-menu {
+    font-family: 'Domine', serif;
+}
+
+/* Small MyAnimeListLogo */
+.header .header-title {
+    background-image: url("https://rawgit.com/The-Brook/CSS-layouts/master/Rokuaka-MAL-layout/images/mal-logo-small.png") !important;
+}
+
+/* Custom copyright text */
+#copyright:after {
+    content: "Modern layout made by The_Br00k.";
+}
+
+div#cover-image-container {
+    /* Removes title logo */
+    display: none;
+}
+
+/* Removes normal logo */
+#cover-image {
+    visibility: hidden;
+    content: none;
+}
+
+tr.list-table-header {
+    background-color: #26243D !important;
+    background-image: none !important;
+    font-family: 'Francois One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+    color: #F0E7F7 !important;
+    border: none !important;
+}
+
+/* Profile image */
+.profile {
+    border-radius: 100%;
+    opacity: 0.75;
+    position: fixed !important;
+    top: 0px;
+    right: 0px;
+    margin: 1vw;
+    width: 125px !important;
+    height: 125px !important;
+}
+
+/* Menu */
+.list-menu-float {
+    border: 0;
+}
+
+/* Left menu style */
+.list-menu-float .icon-menu {
+    background-color: rgba(75, 71, 121, 0.85) !important;
+    border: none;
+}
+
+/* Setting menu children */
+.link-list-setting, .link-style-setting {
+    background-color: rgba(75, 71, 121, 1) !important;
+    border-color: #F0E7F7 !important;
+}
+
+/* Menu icons */
+.icon-quick-add,
+.icon-anime-list,
+.icon-manga-list,
+.icon-history,
+.icon-export,
+.icon-logout,
+.icon-setting {
+    fill: #F0E7F7 !important;
+    transition: 0.5s fill;
+}
+
+/* Menu icons hover */
+.icon-quick-add:hover,
+.icon-anime-list:hover,
+.icon-manga-list:hover,
+.icon-history:hover,
+.icon-export:hover,
+.icon-logout:hover,
+.icon-setting:hover {
+    fill: #9A9EE4 !important;
+}
+
+#footer-block{
+    background-color: #323051 !important;
+    color: #F0E7F7;
+}
+
+/* Links */
+.link.sort {
+    color: #F0E7F7 !important;
+}
+
+/* Default hover event */
+.link.sort:hover,
+a.data.tags:hover,
+.list-table .list-table-data .data a:hover,
+#search-button:hover,
+#show-stats-button:hover,
+#advanced-options-button:hover {
+    color: #9A9EE4 !important;
+}
+
+/********** Tags **********/
+.data.tags {
+    font-weight: bold;
+    font-family: 'Merriweather Sans';
+}
+
+.data.tags a[href ~= "tag"] {
+    transition: filter 0.5s, -webkit-filter 0.5s;
+}
+
+.data.tags a[href$="mecha"] {
+    color: #D33260 !important;
+}
+
+.data.tags a[href$="action"] {
+    color: #72131E !important;
+}
+
+.data.tags a[href$="harem"] {
+    color: #E86584 !important;
+}
+
+.data.tags a[href$="romance"] {
+    color: #D8009B !important;
+}
+
+.data.tags a[href$="ecchi"] {
+    color: #EA5DC6 !important;
+}
+
+.data.tags a[href$="slice%20of%20life"] {
+    color: #37C42B !important;
+}
+
+.data.tags a[href$="music"] {
+    color: #FFFB11 !important;
+}
+
+.data.tags a[href$="comedy"] {
+    color: #FF7338 !important;
+}
+
+.data.tags a[href$="school"] {
+    color: #FFC03A !important;
+}
+
+.data.tags a[href$="magic"] {
+    color: #A256FF !important;
+}
+
+.data.tags a[href$="fantasy"] {
+    color: #FFE66B !important;
+}
+
+.data.tags a[href$="sci-fi"] {
+    color: #BADCFF !important;
+}
+
+.data.tags a[href$="drama"] {
+    color: #FFFFA0 !important;
+}
+
+.data.tags a[href$="game"] {
+    color: #293A4C !important;
+}
+
+.data.tags a[href$="sport"] {
+    color: #BFFFB2 !important;
+}
+
+.data.tags a[href$="adventure"] {
+    color: #055600 !important;
+}
+
+.data.tags a[href$="supernatural"] {
+    color: #FF3F00 !important;
+}
+
+.data.tags a[href$="horror"] {
+    color: #7F0400 !important;
+}
+
+.data.tags a[href$="yuri"] {
+    color: #66FFA5 !important;
+}
+
+.data.tags a[href$="yaoi"] {
+    color: #7F00FF !important;
+}
+
+.data.tags a[href$="isekai"] {
+    color: #1414FF !important;
+}
+
+.data.tags a[href$="games"] {
+    color: #007FFF !important;
+}
+
+.data.tags a[href$="psychological"] {
+    color: #7FFF00 !important;
+}
+
+.data.tags a[href$="parody"] {
+    color: #319E3B !important;
+}
+
+.data.tags a[href$="commercial"] {
+    color: #9B5700 !important;
+}
+
+.data.tags a[href$="food"] {
+    color: #992C5F !important;
+}
+
+.data.tags a[href$="thriller"] {
+    color: #FFFFFF !important;
+}
